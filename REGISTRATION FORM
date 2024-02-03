@@ -1,0 +1,31 @@
+while True:
+    print("\bWELCOME TO OUR YOUTH LEADERSHIP PROGRAM HELD ON 25 DECEMBER 2024")
+    print("If 2 or more candidates register together with a family member or a freind, you'llget 15% discount on registration fee.")
+    print("Kindly fill the registration form below and pay the fee to reserve your seats")
+    n=str(input("Enter your name:"))
+    f=str(input("Enter your father's name:"))
+    a=int(input("Enter your age:"))
+    q=str(input("Enter your qualification:"))
+    e=str(input("Enter your email address:"))
+    w=int(input("Enter your Whatsaap number:"))
+    def myfun():
+        global c
+        if a<18:
+            c=int(input("Enter your father's CNIC number:"))
+        else:
+            c=int(input("Enter your CNIC number:"))
+    myfun()
+    print("NAME:",n)
+    print("FATHER'S NAME:",f)
+    print("AGEE",a)
+    print("QUALIFICATION:",q)
+    print("EMAIL ADDRESS::",e)
+    print("WHATSAAP NUMBER",w)
+    print("CNIC NUMBER:",c)
+    chose=str(input("Would you like to fill the form again to avail the 15% discount offer(yes/no)?"))
+    if chose=="yes":
+        continue
+    
+    else:
+        break
+
